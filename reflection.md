@@ -1,0 +1,1 @@
+Overall, I am aware my creativity in styling isn't the best. but I have enjoyed making my site more responsive. Because I am so into travel I am enjoying using this as a place to keep track of the places I've been and still want to go to.

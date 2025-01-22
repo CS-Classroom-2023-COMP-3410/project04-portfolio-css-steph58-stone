@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1{
+    color: #1a73e8;
+    text-align: center;
+}
+
+#future-travel{
+    h2{
+        padding: 10px
+    }
+}
+
+#about-me{
+    h2{
+        text-align: center;
+    }
+    .responsive-table {
+        width: 95%; /* Make the table take up the full width of the container */
+        border-collapse: collapse;
+        margin-left: 20px;
+    }
+    
+    .responsive-table th, .responsive-table td {
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        border: 1px solid #ccc;
+    }
+    
+    /* Image Column Styles */
+    .responsive-table td img {
+        max-width: 100%; /* Allow the image to shrink to fit the cell */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Prevent inline spacing issues */
+    }
+    
+    /* Responsive Adjustments for Smaller Screens */
+    @media (max-width: 768px) {
+        .responsive-table {
+            font-size: 14px; /* Adjust font size for smaller screens */
+        }
+    
+        .responsive-table td img {
+            max-width: 70%; /* Further reduce the image size on smaller screens */
+        }
+    }
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#home-page{
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh; /* Use 80% of the viewport height for less white space */
+        padding: 10px; /* Add some padding for breathing room */
+        text-align: center;
+    }
+    
+    .image-container img {
+        max-width: 100%; /* Prevent image from exceeding container width */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; /* Ensures it fits nicely */
+    }
+}
